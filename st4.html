@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subjects Taken</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: left;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6ac5fe;
+  text-align: center;
+  padding: 10px;
+}
+
+.pagination a {
+  position: right;
+  color: black;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;} 
+
+
+.menu a {
+  background-color: #6ac5fe;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #6ac5fe;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.right {
+  background-color: #ffffff;
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+  color:#000000;
+  margin-top: 7px;
+  text-align: left;
+}
+
+media only screen and (max-width: 900px) {
+  /* For tablets: */
+  .menu, .main, .right {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div style="background-color:#AF38EB;font-family:Verdana;color:#FFFFFF;padding:15px;text-align:left;">
+  <h1>Make Your Personal Web Page Online</h1>
+</div>
+
+<div style="overflow:auto;font-family:Verdana;color:#FFFFFF;">
+  <div class="menu">
+    <a style="text-decoration:none" href="About.html">About ME</a>
+    <a style="text-decoration:none" href="subjectst.html">Subject Taken</a>
+    <a style="text-decoration:none" href="Enrolled.html">Enrolled</a>
+    <a style="text-decoration:none" href="contactme.html">Contact Me</a>
+     <a style="text-decoration:none" href="favorites.html">My Favorites</a>
+     <a style="text-decoration:none" href="Galleryfinal.html">Gallery</a>
+ 
+  </div>
+
+  <div style="font-family:Verdana;color:#000000;">
+    <div class="main">
+      <h1>SECOND YEAR - 2ND SEMESTER</h1>
+      <table>
+        <tr>
+<th>Subject Name</th>
+          <th>Description</th>
+          <th>Units</th>
+        </tr>
+        <tr>
+          <td>MATH 1</td>
+          <td>MATHEMATICS IN THE MODERN WORLD/MATEMATIKA SA MAKABAGONG DAIGDIG</td>
+          <td>3.0</td>
+        </tr>
+        <tr>
+          <td>CSIT 3</td>
+          <td>INTERMEDIATE PROGRAMMING / COMPUTER PROGRAMMING 2</td>
+          <td>3.0</td>
+        </tr>
+        <tr>
+          <td>ITP 5</td>
+          <td>NETWORKING 2 (CISCO 2: ROUTING PROTOCOLS & CONCEPTS)</td>
+          <td>3.0</td>
+        </tr>
+		 <tr>
+          <td>PE 2</td>
+          <td>PATH FIT 2: FITNESS TRAINING</td>
+          <td>2.0</td>
+        </tr>
+        <tr>
+          <td>PHILO 1</td>
+           <td>ETHICS / ETIKA</td>
+          <td>3.0</td>
+        </tr>
+		<tr>
+          <td>COM 1</td>
+		  <td>PURPOSIVE COMMUNICATION / MALAYUNING KOMUNIKASYON</td>
+          <td>3.0</td>
+        </tr>
+        <tr>
+          <td>HUM 1</td>
+          <td>ARTS APPRECIATION</td>
+          <td>3.0</td>
+        </tr>
+      </table>
+    </div>	
+  
+</div>
+</div>
+<div style="text-align: center;" class="pagination">
+  <a href="st3.html" class="prev">&laquo;</a>
+  <a href="subjectst.html">1</a>
+  <a href="st2.html">2</a>
+  <a href="st3.html">3</a>
+  <a class="active" href="st4.html">4</a>
+   <a href="st5.html">5</a>
+  <a class="next" href="st5.html">&raquo;</a>
+</div>
+
+
+<div class="footer">© 2023 - 2024 ITP4 | All Right Reserved</div>
+</body>
+</html>
